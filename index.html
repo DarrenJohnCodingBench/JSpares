@@ -2,10 +2,25 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="styles.css">
+		
+		<script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
+			<script src="js/s3Slider.js" type="text/javascript"></script> 
+
+				<script type="text/javascript">
+				$(document).ready(function() {
+   				$('#s3slider').s3Slider({
+      			timeOut: 2000
+   			});
+			}); 
+		</script>
+		
+		
+		
         <link rel="icon"
               type="image/gif"
               href="images/favicon.gif">
         <title>Welcome to JEC Spares</title>
+        <meta charset="UTF-8">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -13,7 +28,7 @@
     <body>
         <div id ="header">
             <div align="center">
-                 <img src ="http://www.jecspares.co.za/images/Copy%20of%20jec%20edit.gif" border="0"></div>
+                 <img src ="Images/Logo/JEC_LOGO.bmp"border="0"></div>
        
             <p align="center"> Home of Engine, Gearbox, Truck and Trailer Spares</p>
         </div>
@@ -32,5 +47,47 @@
                     <h3 align="center">Welcome to JEC Spares</h3>
                 </div>
         </div>
+		
+		 <div id="element" align="center">
+			
+    	<div id="s3slider">
+        	
+            <ul id="s3sliderContent">
+            	<li class="s3sliderImage">
+                <img src="Images/Slider_Images/tr4.jpg" />
+                <span class="top">We supply all your Engine needs.</span>
+                </li>
+                
+                <li class="s3sliderImage">
+                <img src="Images/Slider_Images/tr3.jpg" />
+                <span class="top">Contact any of our branches for immediate assistance.</span>
+                </li>
+                
+                <li class="s3sliderImage">
+                <img src="Images/Slider_Images/tr2.jpg" />
+                <span  class="top">Do you need your vehicle back on the road as soon as possible?</span>
+                </li>
+            
+            
+            	<li class="s3sliderImage">
+                <img src="Images/Slider_Images/tr1.jpg" />
+                <span class="top">Browse our product range for the parts you need.</span>
+                </li>
+                
+                <li class="s3sliderImage">
+                <img src="Images/Slider_Images/staff.jpg" />
+                <span class="top">Our staff are all eager to go the extra mile to find what your are looking for.</span>
+                </li>
+            
+            <li class="clear s3sliderImage"></li>
+            
+            
+          </ul>
+            
+        </div>
+		
+		
+		
+		
     </body>
 </html>
