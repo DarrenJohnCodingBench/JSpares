@@ -15,7 +15,7 @@
     $.fn.s3Slider = function(vars) {       
         
         var element     = this;
-        var timeOut     = (vars.timeOut != undefined) ? vars.timeOut : 65000;
+        var timeOut     = (vars.timeOut != undefined) ? vars.timeOut : 650000;
         var current     = null;
         var timeOutFn   = null;
         var faderStat   = true;
@@ -38,7 +38,7 @@
         
         var fadeElement = function(isMouseOut) {
             var thisTimeOut = (isMouseOut) ? (timeOut/2) : timeOut;
-            thisTimeOut = (faderStat) ? 10 : thisTimeOut;
+            thisTimeOut = (faderStat) ? 120 : thisTimeOut;
             if(items.length > 0) {
                 timeOutFn = setTimeout(makeSlider, thisTimeOut);
             } else {
