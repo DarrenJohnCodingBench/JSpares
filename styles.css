@@ -7,6 +7,7 @@ and open the template in the editor.
     Created on : 25 Sep 2014, 5:28:45 PM
     Author     : Darren
 */
+
 #header
 {
     font-family: sans-serif;
@@ -62,7 +63,7 @@ and open the template in the editor.
 
 #footer
 {
-    width: 100%;
+    width: 99%;
     height: 25px;
     color: #FFF;
     font-size: 10px;
@@ -71,7 +72,7 @@ and open the template in the editor.
     text-align: center;
     background-color: #cc0000;
     border-radius: 8px;
-    padding: 8px 5px 8px 8px;
+    padding: 5px 5px 5px 5px;
     
 }
 /*slider styles*/
@@ -104,8 +105,6 @@ and open the template in the editor.
 	float:left;
 	position:relative;
 	display:none;
-       
-        
 }
 
 .s3sliderImage span 
@@ -183,3 +182,22 @@ and open the template in the editor.
         border-radius: 8px;
 }
 
+html
+{
+    position: relative;
+    min-height: 100%;
+}
+
+body
+{
+    margin: 0 0 100px;
+}
+
+footer
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
